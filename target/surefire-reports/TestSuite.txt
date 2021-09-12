@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 119.764 sec <<< FAILURE! - in TestSuite
+basepageNavigation(E2E.E2EProject.ValidateTitle)  Time elapsed: 27.418 sec  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at E2E.E2EProject.ValidateTitle.basepageNavigation(ValidateTitle.java:39)
+
